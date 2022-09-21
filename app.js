@@ -108,7 +108,7 @@ const namesHTML = (id, name) => {
   });
 
   deleteButton.addEventListener("click", () => {
-    let confirmDelete = confirm("Are you sure you want to delete this name?");
+    let confirmDelete = confirm("Are you sure you want to delete this task?");
     if (confirmDelete) {
       deleteObject(id);
       document.querySelector(".names").removeChild(container);
