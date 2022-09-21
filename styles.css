@@ -118,3 +118,7 @@ input {
     color: #FFF;
 
 }
+
+.input::placeholder {
+    color: #EEE;
+}
