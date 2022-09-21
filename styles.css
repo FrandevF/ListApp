@@ -1,0 +1,115 @@
+body {
+    background-color: rgb(45, 65, 89);
+    color: #222;
+    font-family: sans-serif;
+    text-align: center;
+}
+
+body,
+h2,
+div,
+input,
+button {
+    padding: 0;
+    margin: 0;
+}
+
+.names {
+    max-width: 600px;
+    margin: auto;
+    margin-top: 40px;
+}
+
+.name {
+    display: grid;
+    grid-template-columns: minmax(100px, 300px)1fr;
+    border-top: 2.5px dashed rgb(238, 108, 68);
+    letter-spacing: 1.6px;
+}
+
+/* solid. dotted. double. dashed. groove. ridge. inset. outset. */
+.options {
+    display: flex;
+    justify-self: end;
+
+}
+
+.add-names {
+    margin-top: 40px;
+}
+
+#name,
+#add {
+    padding: 4px 8px;
+
+}
+
+
+.options button {
+    /* background: transparent; */
+    border: none;
+    margin: 4px 10px;
+    outline: none;
+}
+
+.delete {
+    color: rgb(11, 8, 7);
+    background-color: rgba(101, 104, 110, .4);
+    border-radius: 2px;
+    font-size: .84rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.delete:hover {
+    color: #999;
+}
+
+.imposible {
+    color: #CCC;
+    background-color: transparent;
+}
+
+.posible {
+    color: rgb(5, 255, 14);
+    font-weight: 700;
+    font-size: 1rem;
+    background-color: rgba(101, 104, 110, .4);
+    padding: 2px;
+    transition: all .3s ease;
+}
+
+.posible:hover {
+    color: #6af;
+}
+
+.name h2 {
+    padding: 7px;
+    color: rgb(52, 6, 6);
+    outline-color: crimson;
+}
+
+input {
+
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid rgb(36, 13, 13);
+    height: 29px;
+    background-color: rgb(190, 67, 67);
+    color: #FFF;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+
+#add {
+    background-color: rgb(190, 67, 67);
+    color: #fff;
+    border: 1px solid rgb(36, 13, 13);
+    border-radius: 4px;
+    outline: none;
+    height: 38px;
+    cursor: pointer;
+    color: #FFF;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
