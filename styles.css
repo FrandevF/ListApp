@@ -120,5 +120,5 @@ input {
 }
 
 .input::placeholder {
-    color: #EEE;
+    color: rgb(199, 157, 157);
 }
