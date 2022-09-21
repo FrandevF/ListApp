@@ -119,6 +119,6 @@ input {
 
 }
 
-.input::placeholder {
+#name::placeholder {
     color: rgb(199, 157, 157);
 }
